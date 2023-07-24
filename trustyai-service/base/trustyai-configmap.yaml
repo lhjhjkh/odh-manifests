@@ -1,0 +1,6 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: trustyai-service-odh-manifest-deprecated
+data:
+   MESSAGE: "THE TRUSTYAI-SERVICE-OPERATOR HAS REPLACED THE TRUSTYAI-SERVICE MANIFEST IN ODH. THE TRUSTYAI-SERVICE MANIFEST HAS BEEN DEPRECATED AS OF ODH 1.8 RELEASE"
