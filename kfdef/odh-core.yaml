@@ -62,5 +62,5 @@ spec:
     name: trustyai-service-operator
   repos:
   - name: manifests
-    uri: https://github.com/opendatahub-io/odh-manifests/tarball/master
-  version: master
+    uri: https://github.com/opendatahub-io/odh-manifests/tarball/v1.9
+  version: v1.9

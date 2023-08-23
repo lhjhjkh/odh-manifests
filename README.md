@@ -31,7 +31,7 @@ Any components that were removed with the update to ODH 1.4 have been relocated 
 
 | Manifest Version | ODH Dashboard      | ODH Notebook Controller | ODH Notebook Images | Data Science Pipelines | ModelMesh |
 | ---------------- | ------------------ | ----------------------- | ------------------- |----------------------- | --------- |
-| master           | v2.14.0-incubation | v1.6                    | 2023a               | v0.2.2                 | v0.11.0   |
+| v1.9             | v2.14.0-incubation | v1.7.0-2                | 2023a               | v0.2.2                 | v0.11.0   |
 
 Release notes and component versions for each ODH release is available on [opendatahub.io](https://opendatahub.io/blog/?type=release)
 
