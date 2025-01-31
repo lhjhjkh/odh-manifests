@@ -22,7 +22,7 @@ spec:
       from:
         kind: DockerImage
         name: quay.io/opendatahub/workbench-images@sha256:8fb7add0e260ce37476bbb21346426cc2f8a55c611e80e91c0bda54326d821c2
-      name: "2023.1-cuda-11.7"
+      name: "workbench-images:2023.1-cuda-11.7"
       referencePolicy:
         type: Local
     # N-1 Version of the image

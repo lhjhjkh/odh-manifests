@@ -20,6 +20,6 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/opendatahub/workbench-images@sha256:efc708b7d0decab7933a693617720d171b6b774cb0a9455b027a7df51d1e5640
-    name: "2023.1"
+    name: "workbench-images:2023.1"
     referencePolicy:
       type: Local
