@@ -126,13 +126,13 @@ spec:
             periodSeconds: 5
             successThreshold: 1
             failureThreshold: 3
-          lifecycle:
-            postStart:
-              exec:
-                command:
-                  - /bin/sh
-                  - -c
-                  - /home/scripts/enable_auth.sh ${ROOT_PASSWORD}
+          # lifecycle:
+          #   postStart:
+          #     exec:
+          #       command:
+          #         - /bin/sh
+          #         - -c
+          #         - /home/scripts/enable_auth.sh ${ROOT_PASSWORD}
       serviceAccountName: etcd-serviceaccount
 ---
 apiVersion: v1
